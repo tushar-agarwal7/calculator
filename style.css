@@ -1,0 +1,91 @@
+
+body{
+    font-family: cursive;
+   background-color: rgb(182, 168, 168);
+
+}
+hr{
+ max-width: 30vw;
+    opacity: 0.2;
+}
+
+h1{
+    text-align: center;
+   margin-top: 10px;
+  
+}
+
+.output{
+  
+    margin-bottom: 10rem;
+    margin: auto;
+    text-align: right;
+    font-size: 1.5rem;
+    max-width: 30vw;
+}
+
+.allbtns{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr) ;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 150px;
+    max-width: 30vw;
+    margin: auto;  
+    
+    
+
+}
+button{
+     height: 95px; 
+     padding: 2rem;
+    border-radius:16px ;
+    font-size: 2rem;
+    border: none;
+    border: 1px solid rgb(117, 117, 117);
+    font-family: cursive;
+    box-shadow: 5px 5px 10px rgba(13, 1, 1, 0.3);
+   
+}
+button:hover{
+    opacity: 0.7;
+}
+.clearall{
+    grid-column: span 2;
+    
+}
+
+.operator{
+    background-color: rgb(187, 180, 180);
+}
+
+
+.number{
+    background-color: rgb(223, 218, 218);
+}
+.delete{
+    background-color: rgb(187, 180, 180);
+}
+
+.zero{
+    grid-column: span 2;
+}
+
+.answer{
+    font-size: 30px;
+}
+
+footer{
+    background-color: rgb(252, 255, 255);
+    margin-top: 50px;
+    bottom: 0;
+    height: 80px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
